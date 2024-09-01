@@ -1,9 +1,7 @@
-import styles from "./page.module.css";
+import { HTag } from "@/components";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <h1>Project started</h1>
-    </main>
+    <HTag tag="h1">Project started</HTag>
   );
 }
