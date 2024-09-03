@@ -1,9 +1,11 @@
-import { HTag, Button, Paragraph } from "@/components";
+import { HTag, Button, Paragraph, Tag } from "@/components";
 
 export default function Home() {
   return (
     <>
       <HTag tag="h1">Title h1</HTag>
+      <Tag size="small">Ghost</Tag>
+      <Tag size="large" color="red" href="https://hh.ru">Red</Tag>
       <Paragraph size="sm">
         This is a small text paragraph...
       </Paragraph>

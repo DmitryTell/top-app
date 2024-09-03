@@ -50,6 +50,7 @@ button {
 
 
   /* Font sizes */
+  --extra-small: 12px;
   --small: 14px;
   --middle: 16px;
   --large: 18px;
