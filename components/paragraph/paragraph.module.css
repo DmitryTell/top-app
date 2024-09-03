@@ -1,0 +1,17 @@
+.paragraph {
+    font-weight: var(--regular);
+    line-height: 24px;
+}
+
+.small {
+    font-size: var(--small);
+}
+
+.middle {
+    font-size: var(--middle);
+}
+
+.large {
+    font-size: var(--large);
+    line-height: 29px;
+}

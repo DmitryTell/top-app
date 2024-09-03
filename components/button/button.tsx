@@ -1,11 +1,10 @@
 import { FC } from "react";
 import cn from "classnames";
 
-import { ButtonProps } from "./button.props";
 import styles from "./button.module.css";
 import ArrowIcon from "./arrow.svg";
 
-export const Button: FC<ButtonProps> = ({
+export const Button: FC<Button> = ({
     appearance,
     children,
     className,

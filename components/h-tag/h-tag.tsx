@@ -1,9 +1,8 @@
 import { FC } from "react";
 
-import { HTagProps } from "./h-tag.props";
 import styles from "./h-tag.module.css";
 
-export const HTag: FC<HTagProps> = ({ tag, children }) => {
+export const HTag: FC<HTag> = ({ tag, children }) => {
     switch (tag) {
         case "h1":
             return <h1 className={ styles.h1 }>{ children }</h1>;
